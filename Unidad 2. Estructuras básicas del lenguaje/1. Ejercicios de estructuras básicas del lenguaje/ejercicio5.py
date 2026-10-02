@@ -15,6 +15,8 @@ else:
         if i % 2 == 0:
             print(i)
 
+print("==========")
+
 # Versión con WHILE
 if num1 > num2:
     print("Error")
