@@ -13,6 +13,8 @@ def convertirTemperatura(temperatura_inicial : float, unidad_inicial : str, unid
         raise ValueError("Las unidades posibles solo pueden ser C, F o K")
 
     temperatura_final = temperatura_inicial
+    unidad_inicial = unidad_inicial.upper()
+    unidad_final = unidad_final.upper()
 
     if unidad_inicial == "C":
         if temperatura_inicial < -273.15:
